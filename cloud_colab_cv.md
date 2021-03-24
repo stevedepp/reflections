@@ -54,7 +54,7 @@ After reading a bit on computer and biological vision I might take a different p
 
 First, I read through an article that highlights how the fields of biological and computer vision separated shortly after Marr (1982) attempted to unify them around similar computational problems.  Experimental tools limited the study of biological vision and computing power limited the study of machine vision. Medathati et al. (2016) suggest that time is ripe for common ground: limits are no longer in place and so advancements and inspiration are possible on both playing fields.   
 
-The diversion I want to address is at minute 39:40 in BladeRunner2049 when Jared Leto as a blind Niander Wallace says "Now let's have a look at you."  This is after he's physically inspected the new, but still infertile, female replicant.  His subsequent actions make it clear that the several drone-like eyes that enter the room are not visual tools alone.  They enable him to sense other dimensions, notably some form of visual density measure, akin to X-ray or Ultrasound.  This is how he determines the replicants infertility.  
+The diversion I want to address is at minute 39:40 in BladeRunner2049 when Jared Leto as a blind Niander Wallace says "Now let's have a look at you."  This is after he's physically inspected the new, but still infertile, female replicant.  His subsequent actions make it clear that the several drone-like eyes that enter the room are not visual tools alone.  They enable him to sense other dimensions, notably some form of visual density measure, akin to X-ray or Ultrasound.  This is how he determines the replicants infertility.  
 
 It would be comforting to grant a blind human the ability to see, much like the rest of us.  This would offer common experiences, but why stop there?    
 
@@ -70,6 +70,18 @@ It would be comforting to grant a blind human the ability to see, much like the 
   - infrared and radiation detection (pit vipers)    
 
 If these senses work together, I don't think we should paint a target on biological sight when this clearly isn't what we are after when we represent how we perceive our surroundings.   
+
+In Barto & Sutton (2020), reinforcement learning can be based on probabilities for next state and rewards dependent on prior state and action.  Leaning almost exclusively on Markov properties: Environment gives off states and rewards.  Agent takes in states and rewards and decides on action that are fed back into Environment which in turn gives off reward for action and a new state.  Agent takes in reward and new state and decides on new action, and so on ...
+
+So the key is the interaction between Agent and Environment. 
+
+Page 50 they state:
+
+"...the boundary between agent and environment is typically not the same as the physical boundary of a robot’s or animal’s body. Usually, the boundary is drawn closer to the agent than that. For example, the motors and mechanical linkages of a robot and its sensing hardware should usually be considered parts of the environment rather than parts of the agent. Similarly, if we apply the MDP framework to a person or animal, the muscles, skeleton, and sensory organs should be considered part of the environment. Rewards, too, presumably are computed inside the physical bodies of natural and artificial learning systems, but are considered external to the agent."
+
+So in some way if any of the ways I mention of a biological agent "perceiving its surroundings" is not related to just the visual input, then it is in the environment.  Our brain receives an electrical input from the eyes.  That channel is acted upon in the brain but any other mechanism might be deemed environment.  Dunno. I am only on chapter 2! 
+
+Sutton, R. S., & Barto, A. G. (2018). Reinforcement learning: An introduction 2nd ed.
 
 Marr, D. (1982). Vision: A computational investigation into the human representation and processing of visual information, henry holt and co. Inc., New York, NY, 2(4.2).
 
